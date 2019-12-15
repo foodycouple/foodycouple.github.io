@@ -77,43 +77,43 @@ footer{
 	font-family: 'Alata', sans-serif;
 	font-size: 20px;
 	text-align: center;
-	background: #00dafe;
+	background: #e91e63;
 	width: 350px;
 	padding: 1px;
 	margin-left: 50%;
 	transform: translate(-50%,0);
-	border-radius: 20px;
+	border-radius: 50px;
 	margin-top: 5px;
 
 }
 
 .WPBUTTON:hover{
-	background: #fe2400;
+	background: #1ec9e9;
 }
 
 .WPBUTTON:active{
-	background: #fe005b;
+	background: #009688;
 }
 
 .Gallary{
 	font-family: 'Alata', sans-serif;
 	font-size: 14px;
 	text-align: center;
-	background: #fe005b;
+	background: #e91e63;
 	width: 350px;
 	padding: 2px;
 	margin-left: 50%;
 	margin-top: 5px;
 	transform: translate(-50%,0);
-	border-radius: 20px;
+	border-radius: 50px;
 }
 
 .Gallary:hover {
-	background: #fe2400;
+	background: #1ec9e9;
 }
 
 .Gallary:active {
-	background: #00dafe;
+	background: #009688;
 }
 
 .MainText{

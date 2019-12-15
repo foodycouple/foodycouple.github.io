@@ -7,6 +7,38 @@
 	<link rel="icon" href="imge-08.png" type="image/png">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
 </head>
+
+<!--right click disable-->
+<SCRIPT LANGUAGE="JavaScript">
+function clickIE() 
+{
+	if (document.all) 
+	{
+		return false;
+	}
+}
+
+function clickNS(e) {
+	if 
+		(document.layers||(document.getElementById&&!document.all)) {
+			if (e.which==2||e.which==3) 
+				{
+					return false;
+				}
+			}
+		}
+			if (document.layers){
+				document.captureEvents(Event.MOUSEDOWN);
+				document.onmousedown=clickNS;
+			}
+			else{
+				document.onmouseup=clickNS;
+				document.oncontextmenu=clickIE;
+			}
+
+			document.oncontextmenu=new Function("return false")
+</script>
+
 <body background="bg.jpg">
 	<div class="main">
 
@@ -157,15 +189,15 @@ And don't forget to join us.</h2> </p>
 
 
 <div class="WPBUTTON">
-	<a href="home.html"><p style="text-decoration: none; color: black;"> <b>Join Our WhatsApp Community</p></a>
+	<a href="home.html"><p style="text-decoration: none; color: white;"> <b>Join Our WhatsApp Community</p></a>
 </div>
 
 <div class="Gallary">
-	<a href="https://pagefoodycouple.wordpress.com/"><p style="text-decoration: none; color: black;">Visit Our Gallary</p></a>
+	<a href="https://pagefoodycouple.wordpress.com/"><p style="text-decoration: none; color: white;">Visit Our Gallary</p></a>
 </div>
 
 <div class="WPBUTTON">
-	<a href="https://www.youtube.com/channel/UCnoYhzTk1VeSDbhEln-bERA"><p style="text-decoration: none; color: black;"> <b>Visit Our YouTube Channel</p></a>
+	<a href="https://www.youtube.com/channel/UCnoYhzTk1VeSDbhEln-bERA"><p style="text-decoration: none; color: white;"> <b>Visit Our YouTube Channel</p></a>
 </div>
 
 
