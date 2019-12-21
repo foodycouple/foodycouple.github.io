@@ -1,0 +1,38 @@
+.head{
+width: 40%;
+padding-top: 30px;
+}
+
+#head{
+	text-align: center;
+	padding-top: 20px;
+	}
+
+.mainContent {
+	font-family: 'Alata', sans-serif;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+
+.mainForm{
+	position: relative;
+	/*background: #1ee9a4;*/
+	left: 50%;
+	transform: translate(-50%,0);
+}
+
+.buttons{
+	color: black;
+	background: #1ee9a4; 
+}
+
+.buttons:hover{
+	background: #e91e63;
+	color: white;
+}
+
+.buttons:active{
+	background:#c9e91e; 
+	color: black;
+}
