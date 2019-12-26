@@ -25,6 +25,7 @@ padding-top: 30px;
 .buttons{
 	color: black;
 	background: #1ee9a4; 
+	margin: 2px;
 }
 
 .buttons:hover{
