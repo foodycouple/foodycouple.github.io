@@ -17,10 +17,12 @@
 }
 
 .pics{
-	margin: auto;
 	/*background: black;*/
-	margin-left: 50%;
-	transform: translate(-50%,0);
-	width: 22%;
-	margin-top: 50px;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	/*width: 22%;*/
+	top: 50%;
+	height: 18vh;
+
 }
