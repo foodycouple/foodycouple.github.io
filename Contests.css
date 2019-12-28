@@ -37,3 +37,21 @@ padding-top: 30px;
 	background:#c9e91e; 
 	color: black;
 }
+
+.ResultP{
+	background: #e5697e;
+	margin: auto;
+	padding: 10px;
+	width: 300px;
+	border-radius: 50px;
+}
+
+.ResultP:hover{
+	background: #69e5d0;
+	color: white;
+}
+
+.ResultP:active{
+	background: #152d29;
+	color: white;
+}
