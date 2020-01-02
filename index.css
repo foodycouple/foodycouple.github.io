@@ -61,13 +61,13 @@ a{
 	margin-top: 20px;
 }
 
-footer{
+.ftr{
 	position: relative;
 	text-align: center;
 	padding:5px;
 	padding-top: 55px;
 /*	position: relative;*/
-    margin-top: 560px;
+    margin-top: 600px;
     bottom: 0px;
 	font-family: 'Alata', sans-serif;
 	font-size: 14px;

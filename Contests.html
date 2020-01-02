@@ -1,132 +1,85 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>CONTESTS</title>
-	<link href="https://fonts.googleapis.com/css?family=Alata&display=swap" rel="stylesheet">
-	<link rel="icon" href="imge-08.png" type="image/png">
-	<link rel="stylesheet" type="text/css" href="Contests.css">
-	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-	<meta name="description" content="Foody Couple arranges different contests in there group, This page is dedicated to all the contests arrange by the group foodyC. All about registration and results can be found here.">
-	<meta name="keywords" content="HTML,CSS,XML,JavaScript">
-   <meta name="author" content="Titas Mallick">
-   <meta charset="utf-8">
+    <title>CONTESTS</title>
+    <link href="https://fonts.googleapis.com/css?family=Alata&display=swap" rel="stylesheet">
+    <link rel="icon" href="imge-08.png" type="image/png">
+    <link rel="stylesheet" type="text/css" href="Contests.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description"
+        content="Foody Couple arranges different contests in there group, This page is dedicated to all the contests arrange by the group foodyC. All about registration and results can be found here.">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Titas Mallick">
+    <meta charset="utf-8">
 </head>
 
 <!--right click disable-->
 <SCRIPT LANGUAGE="JavaScript">
-function clickIE() 
-{
-	if (document.all) 
-	{
-		return false;
-	}
-}
+    function clickIE() {
+        if (document.all) {
+            return false;
+        }
+    }
 
-function clickNS(e) {
-	if 
-		(document.layers||(document.getElementById&&!document.all)) {
-			if (e.which==2||e.which==3) 
-				{
-					return false;
-				}
-			}
-		}
-			if (document.layers){
-				document.captureEvents(Event.MOUSEDOWN);
-				document.onmousedown=clickNS;
-			}
-			else{
-				document.onmouseup=clickNS;
-				document.oncontextmenu=clickIE;
-			}
+    function clickNS(e) {
+        if
+            (document.layers || (document.getElementById && !document.all)) {
+            if (e.which == 2 || e.which == 3) {
+                return false;
+            }
+        }
+    }
+    if (document.layers) {
+        document.captureEvents(Event.MOUSEDOWN);
+        document.onmousedown = clickNS;
+    }
+    else {
+        document.onmouseup = clickNS;
+        document.oncontextmenu = clickIE;
+    }
 
-			document.oncontextmenu=new Function("return false")
+    document.oncontextmenu = new Function("return false")
 </script>
-<body background="bg.jpg">
-	<div>
-		<center>
 
-		<a href="index.html">	
-			<img alt="Foody Couple Logo" class="head" src="head.png">
-		</a>	
-		</center>
+<body onload="startConfetti()" background="bg.jpg">
 
-	</div>
+    <div>
+        <center>
 
-	<div class="mainContent">
-		<h1 style="font-family: 'Alata', sans-serif;
-		font-size: 2vw; text-align: center;">FoodyC Contests</h1>
-		<h2 style="text-align: center; color: #e91ec9; font-size: 2vw;">foodyC Winter Contest. Category 2: Maximum Vote</h2>
-		<p style="text-align: justify; font-size: 1vw;"> The Registration Procedure is currently closed, and the voting procedure is now open. If you have participated in our MaxVote Conest. Then get yourself voted here. Maximum Voted member will be selected as winner and will receive amazing gifts from us. Only the members of our fb group are allowed to vote here. Invite your friends as much as can in our group foodyC and then tell them to vote you. One person can only vote once. So each and every voter matters. Fill free to vote now. <b>Voting procedure will be live till 2nd January, 2020.</b> We do not require your documents from '71. ;)</p>
-		<p style="font-size: 1.3vw;">Contest: <em>Category2: Maximum Vote</em></p>
-		<p style="font-size: 2vw; text-align: center;"> <b>Participants</b> </p>
-		<div style="text-align: center; font-size: 1.2vw">
-			<p> Debsmita Das <em>#44424d</em> <br>
-				Priyanka dhibar <em>#506462</em> <br>
-				Avijit Bairagi <em>#417662</em> <br>
-				Sangita Saha <em>#536774</em> <br>
-				Diptesh Saha <em>#647074</em> <br>
-				Soumita sinha roy <em>#534d54</em> <br>
-				Renia <em>#526E65</em> <br>
-				Sudipta Chakrabarti <em>#D5672E</em> <br>
-				Nisha dey <em>#14ST6E</em> <br>
-				Nisha dey <em>#14ST6E</em> <br>
-				Samadri Santra <em>#SMT58</em> <br><br>
-			</p>
-		</div>
+            <a href="index.html">
+                <img alt="Foody Couple Logo" class="head" src="head.png">
+            </a>
+        </center>
 
-
-		<div>
-		<!-- <h2 style="text-align: center; color: #e91ec9; font-size: 2vw;">Upcoming Contest</h2>
-		<p style="text-align: justify;  font-size: 1vw;"> We are going to arrange another new contest very soon in our group. Stay tuned. This contest is going to start form 25th December, 2019 and will continue till 1st January, 2020. There will be 2 categories: 1. Admin Choice and 2. Maximum Vote. The Maximum Vote category will be operated here only. And the Category 1 of the contest will be operated in the fb group as usual.
-		</p> -->
-		<p style="font-size: 1.2vw;">Category 2: <em>Maximum Vote (beta)</em></p>
-		<p style="font-size: 1.1vw; text-align: center;"> <b>Rules and Details</b> </p>
-		<div style="text-align: justify; font-size: 1.05vw">
-			<p> The registration procedure is currently over and here this is the time for voting. The voting procedure is actually simple. We have posted a code in our group post about the voting. Voters just need to get the code from the foodyC fb group to initiate the vote. This voting procedure takes voters identity as their emial address to prevent them from voting twice and spamming the system. So participants are requested to do the followings:
-<br>
-<b>
-1. Invite your friends in our fb group foodyC<br>
-2. Tell them to vote you.<br>
-3. Tell the voters to copy the voting code from our foodyC fb group post about voting.<br>
-4. Send your friends to this page and tell them to vote for you here.<br>
-</b>
-<br>
-<b>Only the votes from the members of the foodyC group will be regarded as valid. Otherwise the votes shouldn't be counted. The winners will be selected on the basis of maximum valid votes.</b> <br>
-<b>You MUST NEED THE VOTING CODE FROM OUR GROUP to take part in the actual voting.</b>
-<br>
-<b>The Voters are requested to post a comment to below the voting post in the fb group foodyC mentioning <em>"I have voted"</em>. Though this is not mandatory but all voters are encouraged to do that. Take part actively.</b>
-If your browser is not up-to-date or if your browser is not logged in with your Google Account then them from may redirect you to Google Login Page. This is secure. This occurs solely on Google's Login Page, Not in Local Server. We do not store any of your login informations. Still if you are afraid of phising then feel free to inspect the URL when it redirects to sign in page of your Google Account. Moreover our site pushes HTTPS over secure SSL. So all your personal informations are completely safe. 
-
-
-
-			</p>
-		</div>
-		<h2 style="text-align: center;">Vote Now</h2>
-		<center>
-		<a style="text-decoration: none; color: black;" href="https://titasmallick.github.io/foodyC/chart"><h2 class="ResultP"> Visit Live Result Portal</h2></a> <br><br>
-		</center>
-		</div>
-
-<div>
-	<iframe class="mainForm" src="https://docs.google.com/forms/d/e/1FAIpQLSfq5fafNDB-DR-t5PjhKAsPHrsCutjbdav9YVPtvk2hWmwEJg/viewform?embedded=true" width="720" height="1335" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-</div>
-
-<div>
-
-	<h2 style="text-align: center; color: #e91ec9; font-size: 2vw;">Upcoming Contest</h2>
-		<p style="text-align: center;  font-size: 1vw;"> You will be notified later about any upcoming events in our group or website in this section as soon as it appears.
-		</p>
-</div>
-
-
-
-<div>
-	<center>
-		<p style="font-size: 0.8vw;">Thanks For Visiting</p>
-		<a style="text-decoration: none;" href="index.html"> <h2 class="buttons" style="width: 200px; font-size: 1.5vw; border-radius: 50px; padding: 2px;">Go Back</h2></a>
-	</center>
-</div>
-<footer style="text-align: center; font-size: 0.8vw;">Thanks Amazing Human | Best of Luck | 2020</footer>
+    </div>
+    <div class="txta">
+        <center>
+            <img style="height: 30vh; padding-top: 20px;" src="cup.png">
+            <p style="font-family: 'Alata', sans-serif; font-size: 2.8vh; padding-bottom: 0px;">Congratulations</p>
+            <h1 style="font-family: 'Alata', sans-serif; font-size: 3.5vh; padding-top: 0px;">Soumita Sinha Roy</h1>
+            <p style="font-family: 'Alata', sans-serif; font-size: 13px; margin:20px;">You are the winner of our foodyC
+                Winter Contest Category 2 Maximum Vote. You won with wapping ~35% (to be precise 34.9726776%) Votes. Soumita, Check your e-mail inbox we
+                have sent you one e-mail. And contact us regrading your prize. Mail us to foodycouple0@gmail.com. Say
+                'Hi'.</p>
+        </center>
+    </div>
+    <div class="buttn">
+        <a style="text-decoration: none; color: black;" href="https://titasmallick.github.io/foodyC/chart">
+            <p style="font-family: 'Alata', sans-serif; text-align: center; font-size: 10px;">See Detailed Result</p>
+        </a>
+    </div>
+    <div>
+        <p style="font-family: 'Alata', sans-serif; text-align: center; font-size: 6px; bottom: 0px;"><em>Suggested:
+                Group policies (foodyc.xyz/Policies)</em></p>
+        <p style="font-family: 'Alata', sans-serif; text-align: center; font-size: 6px; bottom: 0px;"><b>This Page will
+                Be Live for 2 days</p></b>
+    </div>
+    <div>
+        <p class="footer" style="font-family: 'Alata', sans-serif; text-align: center; font-size: 10px; bottom: 0px;">
+            foodyC | Foody Couple | Creativegun Films | foodyc.xyz | 2020</p>
+    </div>
 </body>
+<script src="confetti.js"></script>
+
 </html>
