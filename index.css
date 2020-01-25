@@ -1,6 +1,11 @@
 a{
 	text-decoration: none
 }
+#donates{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
 
 .header {
 	position: absolute;
