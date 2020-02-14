@@ -1,7 +1,7 @@
 html,body{
 	display: none;
 }
-@media screen and (max-width: 768px){
+@media (display-mode: standalone){
 html,body{
 	display: block;
 	margin: 0px;
@@ -68,7 +68,7 @@ html,body{
 	display: grid;
 	grid-gap: 20px;
 	width: 100%;
-	grid-template-columns: repeat(7, 30px);
+	grid-template-columns: repeat(6, 30px);
 	justify-content: center;
 	margin-top: 20px;
 }
