@@ -6,6 +6,8 @@ self.addEventListener('install', function(e) {
    caches.open('Creativegun').then(function(cache) {
      return cache.addAll([
         '/',
+        '/PWA.html',
+        '/PWA.css',
      ]);
    })
  );
