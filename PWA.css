@@ -1,11 +1,132 @@
-html,body{
+/*html,body{
 	display: none;
+}*/
+html,body{
+	font-family: 'Quicksand', sans-serif;
+	scroll-behavior: smooth;
+	text-decoration-style: none;
+}
+a{
+	text-decoration: none;
+}
+.btnDown{
+	padding: 20px;
+	border: 1px dashed orange;
+	border-radius: 20px;
+}
+.btnDown:hover{
+	background: #fff200;
+	transition: 0.3s;
+}
+.btnDownB{
+	padding: 20px;
+	border: 1px dashed green;
+}
+.foots{
+	bottom: 0px;	
+}
+.mainBody{
+	/*display: none;*/
+	margin-top: 30%;
+	text-align: center;
+	width: 80%;
+	margin-left: 50%;
+	transform: translate(-50%,-50%);
+}
+.testH{
+	display: block;
+}
+.header{
+	margin-top: 100px;
+	padding: 20px;
+	margin-left: 50%;
+	transform: translate(-50%, 0);
+	width: 80%;
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	align-items: center;
+	justify-content: center;
+	top: 100px;
+	border-radius: 20px;
+	box-shadow: 0px 4px 10px -2px #c6c6c6;
+	border: 2px #fff200 dashed;
+	/*background-color: #fff200;*/
+}
+.header >img{
+	height: 10vh;
+}
+.lastLine{
+	display: none;
+}
+.logo{
+display: none;
+}
+.Heading{
+display: none;
+}
+.subHeading{
+display: none;
+}
+.wrapper{
+display: none;
+}
+.wrapper >div{
+display: none;
+}
+.wrapper >div:active{
+display: none;
+}
+.socialStat{
+display: none;
+}
+.socialMedia{
+display: none;
+}
+
+.socialMedia >i:hover{
+display: none;
+}
+
+.socialMedia >i:active{
+display: none;
+}
+.footer{
+display: none;
+
+}
+.offlineDetect{
+display: none;
+
+}
+.donateButton{
+display: none;
+}
+.donateButton:hover{
+display: none;
+}
+.inputF{
+display: none;
+}
+.inputB{
+display: none;
 }
 @media (display-mode: standalone){
 html,body{
-	display: block;
+/*	display: block;*/
 	margin: 0px;
 	overflow-x: hidden;
+}
+.mainBody{
+	display: none;
+}
+.header{
+	display: none;
+}
+.header >img{
+	display: none;
+}
+.lastLine{
+	display: block;
 }
 *{
 	text-decoration: none;
@@ -68,7 +189,7 @@ html,body{
 	display: grid;
 	grid-gap: 20px;
 	width: 100%;
-	grid-template-columns: repeat(6, 30px);
+	grid-template-columns: repeat(8, 30px);
 	justify-content: center;
 	margin-top: 20px;
 }

@@ -24,10 +24,38 @@
 	<link rel="shortcut icon" alt="favicon for foodyC." type="image/png" href="icons/icon-192x192.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 	<link rel="stylesheet" href="PWA.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Alata&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/f02fa89e5f.js" crossorigin="anonymous"></script>
 </head>
 <body onload="offlinedetect()">
+
+<!--Header-->
+<div class="testH">
+<a href="index.html"><div class="header">
+	<img src="assets/logo.svg" alt="foodyC logo">
+	<div style="font-size: 2rem; text-align: center; color: black;">foodyC.</div>
+	<div style="font-size: 1rem; text-align: right; color: black;">Contests</div>
+</div></a>
+</div>
+<!--Header-->
+
+<!-- BODY -->
+<div class="mainBody">
+	
+	<p class="btnDownB">Download PWA<br>Allow Notification and "Add to Homescreen"</p>
+	<a href=""><p class="btnDown">Download APK</p></a>
+	<p class="foots">foodyC. | 2020</p>
+</div>
+
+<!-- BODY -->
+
+
+
+
+
 <a href="index.html"><img class="logo" src="assets/logo.svg" alt="logo"></a>
 <p id="NameShow" class="Heading"></p>
 <p class="subHeading">Welcome to foodyC. PWA. V1.0.0</p>
@@ -47,7 +75,8 @@
 	<i id="smD" class="fab fa-instagram"></i>
 	<i id="smE" class="fab fa-whatsapp"></i>
 	<i id="smF" class="fab fa-google"></i>
-<!-- 	<i id="smG" class="fas fa-at"></i> -->
+	<i id="smG" class="fas fa-at"></i>
+	<i id="smH" class="fas fa-phone-alt"></i>
 	</div>
 </div>
 <!-- Main block with grid -->
@@ -92,7 +121,7 @@
 	</div>
 <!-- BLOCK HERE -->	
 </div>
-		<hr width="81%" size="1px" style="border: dashed #75ffe8;">
+		<hr class="lastLine" width="81%" size="1px" style="border: dashed #75ffe8;">
 <center>
 <div id="nameBox">
 <input class="inputF" id="firstName" type="text" name="name" placeholder="Update Your Name">
@@ -144,6 +173,7 @@ function offlinedetect() {
   document.getElementById("smE").style.display = "block";
   document.getElementById("smF").style.display = "block";
   document.getElementById("smG").style.display = "block";
+  document.getElementById("smH").style.display = "block";
   
 }
 else{
@@ -161,7 +191,8 @@ else{
 	document.getElementById("smD").style.display = "none";
 	document.getElementById("smE").style.display = "none";
 	document.getElementById("smF").style.display = "none";
-    document.getElementById("smG").style.display = "block";
+    document.getElementById("smG").style.display = "none";
+    document.getElementById("smH").style.display = "none";
 
 }
 }
