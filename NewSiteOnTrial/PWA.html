@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
+<!-- ONESIGNAL -->
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  var OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "9ce17f51-a84e-4886-b1af-48e208fdcfec",
+    });
+  });
+</script>
+<!-- ONESIGNAL -->	
+	<!-- Manifest -->
+	<link rel="manifest" href="manifest.json">		
 <!-- 	META DESCRIPTION -->
 	<script src="https://www.gstatic.com/firebasejs/7.8.1/firebase.js"></script>
 	<meta name="description" content="foodyC. is a food community dedidcated in discovering amazing new good foods at different price points. Here it is their official lite APP.">
@@ -17,19 +30,7 @@
 	<meta property="og:image" content="fbimg.jpg" />
 	<script src="rightClickDisable.js"></script>
 <!-- 	META DECRIPTION -->
-<!-- ONESIGNAL -->
-<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
-<script>
-  var OneSignal = window.OneSignal || [];
-  OneSignal.push(function() {
-    OneSignal.init({
-      appId: "9ce17f51-a84e-4886-b1af-48e208fdcfec",
-    });
-  });
-</script>
-<!-- ONESIGNAL -->	
-	<!-- Manifest -->
-	<link rel="manifest" href="manifest.json">	
+
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>foodyC.</title>

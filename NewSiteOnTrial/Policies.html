@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
+<!-- ONESIGNAL -->
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  var OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "9ce17f51-a84e-4886-b1af-48e208fdcfec",
+    });
+  });
+</script>
+<!-- ONESIGNAL -->	
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Policies</title>
@@ -41,7 +52,7 @@
 	<h3>Contest</h3>
 </div>
 	<!--Header-->
-<a href="index.html"><div class="header">
+<a style="text-decoration: none;" href="index.html"><div class="header">
 	<img src="assets/logo.svg" alt="foodyC logo">
 	<div style="font-size: 2rem; text-align: center; color: black;">foodyC.</div>
 	<div style="font-size: 1rem; text-align: right; color: black;">Contests</div>
