@@ -8,7 +8,11 @@ self.addEventListener('install', function(e) {
         // '/',
         '/PWA.html',
         '/PWA.css',
-        '/titas.js'
+        '/titas.js',
+        '/main1.js',
+        '/main2.js',
+        '/assets/logo.svg',
+        '/assets/logo.png',
      ]);
    })
  );

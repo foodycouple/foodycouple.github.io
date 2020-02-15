@@ -16,6 +16,49 @@ a {
 a:hover{
 	color: white;
 }
+#imgUpload{
+	padding: 20px;
+	margin: 20px;
+	border: 1px cyan dashed;
+	border-radius: 20px;
+
+/*	background: red;*/
+}
+#imgUpload >legend{
+	text-align: center;
+	font-weight: bold;
+}
+#imgUpload>button{
+	background: white;
+	padding: 13px;
+	border: 1px red dashed;
+}
+#imgUpload >input{
+	background: white;
+	padding: 10px;
+	border: 1px green dashed;
+}
+#contactForm {
+	padding: 20px;
+	margin: 20px;
+	border: 1px cyan dashed;
+	border-radius: 20px;
+}
+#contactForm >input{
+	background: white;
+	padding: 10px;
+	border: 1px red dashed;
+}
+#contactForm >textarea{
+	background: white;
+	padding: 10px;
+	border: 1px red dashed;
+}
+#contactForm >button{
+	background: white;
+	padding: 10px;
+	border: 1px cyan dashed;
+}
 .Btn{
 	background: #ff758c;
 	border-radius: 10px;

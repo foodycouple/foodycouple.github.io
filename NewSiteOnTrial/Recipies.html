@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<script src="https://www.gstatic.com/firebasejs/7.8.1/firebase.js"></script>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Recipies</title>
@@ -89,6 +90,9 @@
 
 <!-- SEARCH BAR -->
 
+<!-- Button -->
+	<a href="#uploadRecpF"><p style="width: 60%; text-align: center; margin-left: 50%; transform: translate(-50%,0);" class="Btn">Send us your Recipies</p></a>
+
 
 <!--Main Contents-->
 <div class="Recipies">
@@ -130,8 +134,60 @@
 </div>
 </div>
 
-<center><a class="Btn" title="mail address" href="mailto:foodycouple0@gmail.com?Subject=Recipies" target="_top">Have Your Own? Send Us Now</a>
+<center><a class="Btn" title="mail address" href="mailto:foodycouple0@gmail.com?Subject=Recipies" target="_top">Mail Your Recipies Directly</a><br>
+	<p>Or</p>
 </center>
+
+<!-- UPLOAD RECEIPIES -->
+<div id="uploadRecpF">
+	
+ 	<form id="imgUpload" enctype="multipart/form-data">
+ 	<legend>Directly Send Us your Recipies</legend>
+ 	<ol>
+ 		<legend><b>STEPS</b></legend>
+ 		<li>Choose your food Photo</li>
+ 		<li>Hit Upload</li>
+ 		<li>Wait till the photo upload</li>
+ 		<li>Write Description</li>
+ 		<li>Write Steps</li>
+ 		<li>Write Comments (veg, nonveg, etc.)</li>
+ 		<li>Confirm Upload in pop-up</li>
+ 	</ol>	
+	<input type="file" id="image" accept="image/*">
+	<button type="button" onclick="upload()">Upload</button>
+	<br>
+	<br>
+	<progress id="pBar" value="0" max="100"></progress>
+	<!-- <p id="imgURL"></p> -->
+	</form>
+
+	<div>
+	<form style=" display: none;" id="contactForm">
+	<img style="height: 100px; width: auto; margin:1px; border: 2px solid #969493; padding: 2px;" src="" alt="image" id="upImage">
+	<br>
+	<br>		
+	<input type="text" name="name" placeholder="Name" id="name">
+	<br>
+  	<br>
+	<input type="email" name="email" placeholder="Email" id="email">
+	<br>
+  	<br>
+	<input type="text" name="description" placeholder="Description" id="description">
+	<br>
+  	<br>
+	<textarea name="steps" placeholder="Steps" id="steps"></textarea>
+	<br>
+  	<br>
+	<textarea name="comment" placeholder="Comment" id="comment"></textarea>
+	<br>
+  	<br>
+	<button type="submit">Submit</button>
+	</form>
+	</div>
+
+</div>
+<!-- UPLOAD RECEIPIES -->
+
 <!--Footers-->
 <div class="semiFooter">
 	A real life couple Titas and Sukanya. In quest for good foods. Review, recommendations and visiting new restaurants. Discovering budget foods. Good food what everyone like. Titas and Sukanya in a journey for discovering budget good food in local restaurants. Reviewing them and recommending to others as well.
@@ -166,4 +222,6 @@
 </div>
 
 </body>
+<script src="main2.js"></script>
+
 </html>

@@ -2,6 +2,7 @@
 <html>
 <head>
 <!-- 	META DESCRIPTION -->
+	<script src="https://www.gstatic.com/firebasejs/7.8.1/firebase.js"></script>
 	<meta name="description" content="foodyC. is a food community dedidcated in discovering amazing new good foods at different price points. Here it is their official lite APP.">
 	<meta name="keywords" content="HTML,CSS,XML,JavaScript">
 	<meta name="author" content="Titas Mallick">
@@ -104,13 +105,41 @@
 	</div>
 <!-- BLOCK HERE -->	
 </div>
-		<hr width="81%" size="1px" style="border: dashed #75ffe8;">
+		
 <center>
 <div id="nameBox">
+	<hr width="81%" size="1px" style="border: dashed #75ffe8;">
 <input class="inputF" id="firstName" type="text" name="name" placeholder="Update Your Name">
 <button class="inputB" onclick="store()" type="submit">ENTER</button>
 </div>
 </center>
+		<hr width="81%" size="1px" style="border: dashed #75ffe8;">
+
+<!-- WRITE TO US -->
+<div id="smI" class="writeToUs">
+	<center>
+	<div style="display:none;" class="alert">Your message has been sent</div>
+	<div>
+	<form id="contactForm">	
+	<legend>Write to foodyC.</legend>	
+	<input type="text" name="name" placeholder="name" id="name">
+	<br>
+	<br>
+	<input type="email" name="email" placeholder="email" id="email">
+<!-- 	<input type="text" name="rply" placeholder="leave a rply" id="rply"> -->
+	<br>
+	<br>
+	<textarea name="rply" placeholder="leave a reply" id="rply"></textarea>
+	<br>
+<br>
+	<button id="btnSubmit" type="submit">Submit</button>
+	</form>
+	</div>
+	</center>
+</div>
+
+<!-- WRITE TO US -->
+		
 <div class="footer">
 	<p>foodyC. PWA, 2020</p>
 </div>
@@ -157,6 +186,7 @@ function offlinedetect() {
   document.getElementById("smF").style.display = "block";
   document.getElementById("smG").style.display = "block";
   document.getElementById("smH").style.display = "block";
+  document.getElementById("smI").style.display = "block";  
   
 }
 else{
@@ -176,6 +206,7 @@ else{
 	document.getElementById("smF").style.display = "none";
     document.getElementById("smG").style.display = "none";
     document.getElementById("smH").style.display = "none";
+    document.getElementById("smI").style.display = "none";
 
 }
 }
@@ -189,4 +220,5 @@ if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/titas.js');
 }
 </script>
+<script type="text/javascript" src="main1.js"></script>
 </html>
