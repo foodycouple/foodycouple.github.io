@@ -1,8 +1,7 @@
 {
   "name": "foodyC.",
   "short_name": "foodyC.",
-  // "start_url": "../PWA.html",
-  "start_url": "/NewSiteOnTrial/PWA.html",  
+  "start_url": "/index.html",  
   "display": "standalone",
   "background_color": "#f8ef22",
   "theme_color": "#ffffff",
