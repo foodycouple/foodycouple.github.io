@@ -140,49 +140,52 @@
 
 <!-- UPLOAD RECEIPIES -->
 <div id="uploadRecpF">
-	
+	<center>
  	<form id="imgUpload" enctype="multipart/form-data">
  	<legend>Directly Send Us your Recipies</legend>
- 	<ol>
- 		<legend><b>STEPS</b></legend>
- 		<li>Choose your food Photo</li>
+ 	<p><b>STEPS</b></p>
+ 	<ol style="display: inline-block; text-align: left;">
+ 		
+ 		<li>Choose your food Photo (Single)</li>
  		<li>Hit Upload</li>
  		<li>Wait till the photo upload</li>
  		<li>Write Description</li>
  		<li>Write Steps</li>
  		<li>Write Comments (veg, nonveg, etc.)</li>
  		<li>Confirm Upload in pop-up</li>
- 	</ol>	
+ 	</ol>	<br>
 	<input type="file" id="image" accept="image/*">
 	<button type="button" onclick="upload()">Upload</button>
 	<br>
 	<br>
 	<progress id="pBar" value="0" max="100"></progress>
 	<!-- <p id="imgURL"></p> -->
-	</form>
+	</form></center>
 
 	<div>
+	<center>
 	<form style=" display: none;" id="contactForm">
 	<img style="height: 100px; width: auto; margin:1px; border: 2px solid #969493; padding: 2px;" src="" alt="image" id="upImage">
 	<br>
 	<br>		
-	<input type="text" name="name" placeholder="Name" id="name">
+	<input type="text" name="name" placeholder="Your Name" id="name" required>
 	<br>
   	<br>
-	<input type="email" name="email" placeholder="Email" id="email">
+	<input type="email" name="email" placeholder="Email" id="email" required>
 	<br>
   	<br>
-	<input type="text" name="description" placeholder="Description" id="description">
+	<input style="height: 60px;" type="text" name="description" placeholder="Description (e.g. Name of the food, Type of food, Indian, Continental, Home-made, Streetfood etc.)" id="description" required>
 	<br>
   	<br>
-	<textarea name="steps" placeholder="Steps" id="steps"></textarea>
+	<textarea name="steps" placeholder="Steps (e.g. 1.Lorem ipusm, 2. Lorem ipsum" id="steps" required></textarea>
 	<br>
   	<br>
-	<textarea name="comment" placeholder="Comment" id="comment"></textarea>
+	<textarea name="comment" placeholder="Comment (e.g. Veg, Nonveg, Sour, Sweet Spicy, etc.)" id="comment" required></textarea>
 	<br>
   	<br>
 	<button type="submit">Submit</button>
 	</form>
+	</center>
 	</div>
 
 </div>

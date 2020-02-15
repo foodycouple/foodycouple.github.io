@@ -29,6 +29,7 @@ a:hover{
 	font-weight: bold;
 }
 #imgUpload>button{
+	margin: 10px;
 	background: white;
 	padding: 13px;
 	border: 1px red dashed;
@@ -45,11 +46,14 @@ a:hover{
 	border-radius: 20px;
 }
 #contactForm >input{
+	width: 60%;
 	background: white;
 	padding: 10px;
 	border: 1px red dashed;
 }
 #contactForm >textarea{
+	width: 60%;
+	height: 100px;
 	background: white;
 	padding: 10px;
 	border: 1px red dashed;
