@@ -1,1 +1,1 @@
-importScripts('https://cdn.onesignal.com/sdks/OneSignalSDKWorker.js', 'sw.js');
+importScripts('https://cdn.onesignal.com/sdks/OneSignalSDKWorker.js', 'titas.js',);
