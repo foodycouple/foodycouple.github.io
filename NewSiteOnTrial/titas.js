@@ -12,7 +12,7 @@ self.addEventListener('install', function(e) {
         '/main1.js',
         '/main2.js',
         '/assets/logo.svg',
-        '/assets/logo.png',
+        '/assets/logo.png'
      ]);
    })
  );
