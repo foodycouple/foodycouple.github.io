@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<!-- ONESIGNAL -->
+	<!-- ONESIGNAL -->
 <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
 <script>
   var OneSignal = window.OneSignal || [];
@@ -11,108 +12,102 @@
     });
   });
 </script>
-<!-- ONESIGNAL -->		
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Contests</title>
-	<link rel="shortcut icon" alt="favicon for foodyC." type="image/png" href="icons/icon-01.png">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="https://fonts.googleapis.com/css?family=Alata&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="5.css">
-	<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Alata&display=swap" rel="stylesheet">
+<!-- ONESIGNAL -->
+<!-- Manifest -->
+<link rel="manifest" href="manifest.json">
+	<title>CONTESTS</title>
 
-<!-- 	META DESCRIPTION -->
-	<meta name="description" content="foodyC. is a food community dedidcated in discovering amazing new good foods at different price points. All about the Contests here.">
+	<link href="https://fonts.googleapis.com/css?family=Alata&display=swap" rel="stylesheet">
+	<link rel="icon" href="imge-08.png" type="image/png">
+	<link rel="stylesheet" type="text/css" href="Contests.css">
+	<link rel="shortcut icon" alt="favicon for foody couple" type="text/css" href="foody couple favicon.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description"
+		content="Foody Couple arranges different contests in there group, This page is dedicated to all the contests arrange by the group foodyC. All about registration and results can be found here.">
 	<meta name="keywords" content="HTML,CSS,XML,JavaScript">
 	<meta name="author" content="Titas Mallick">
-	<meta name="google" value="notranslate">
-	<meta name="mobile-web-app-capable" content="yes">
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta property="og:url" content="foodyc.xyz" />
-	<meta property="og:type" content="Article" />
-	<meta property="og:title" content="foodyC. Contests" />
-	<meta property="og:description"
-		content="foodyC. arranges different short of amazing Contests. Take Part in them and win amazing gifts." />
-	<meta property="og:image" content="fbimg.jpg" />
-	<script src="rightClickDisable.js"></script>
-<!-- 	META DECRIPTION -->	
-	<!-- Manifest -->
-	<link rel="manifest" href="manifest.json">		
-	<!-- fontawsome -->
-	<script src="https://kit.fontawesome.com/f02fa89e5f.js" crossorigin="anonymous"></script>
+	<meta charset="utf-8">
+
+	<meta property="og:url"                content="www.foodyc.xyz/" />
+    <meta property="og:type"               content="Article" />
+    <meta property="og:title"              content="foodyC Contests" />
+    <meta property="og:description"        content="Foody Couple arranges different contests in there group, This page is dedicated to all the contests arrange by the group foodyC. All about registration and results can be found here." />
+    <meta property="og:image"              content="fbimg.jpg" />
+    
 </head>
-<body>
-	<!--Navbar-->
-<div class="navigation">
-	<h3 style="text-align: center; color: grey;"><a id="links" href="index.html">f.</a></h3>
-	<h3>Reviews</h3>
-	<h3>Contests</h3>
-	<h3>About</h3>
-</div>
-	<!--Header-->
-<a href="index.html"><div class="header">
-	<img src="assets/logo.svg" alt="foodyC logo">
-	<div style="font-size: 2rem; text-align: center; color: black;">foodyC.</div>
-	<div style="font-size: 1rem; text-align: right; color: black;">Contests</div>
-</div></a>
 
+<!--right click disable-->
+<SCRIPT LANGUAGE="JavaScript">
+	function clickIE() {
+		if (document.all) {
+			return false;
+		}
+	}
 
-<!--Main Contents-->
-<div class="Recipies">
-<div id="foodOne">
-	<h1>On-going Contests</h1>
-	Currenty foodyC Winter Contest is running in our foodyC group solely. The Compition will continue still 31st January. The category 2 of the contest is over. The category 1 Admin Choice is still undergoing in our group. One lucky winner should be selected from our group members depending on their group involvements, post quality and history of invitation into our group. The result of the contest will be announced in the group and in this page when it will be over.
-</div>
-<div id="curRes">
-	<h1>Current Results</h1>
-	<center><h2>Soumita Sinha Roy</h2></center>
-She is the lucky winner of the foodyC Winter Contest Category 2 Maximum Vote.
-</div>
-<div>
-	<h1>Upcoming Contests</h1>
-	You will be updated about the upcoming contests in this section as soon as they appear. Till then follow our group foodyC. and our page Foody Couple. Links in the landing page of this site.
-</div>
-<div>
-	<h1>foodyC. Contests</h1>
-	
-Page Foody Couple and Our group foodyC arranges frequent Contests and compititions. In this page you can stay updated about all our on-going and upcoming contests.
-</div>
-</div>
+	function clickNS(e) {
+		if
+			(document.layers || (document.getElementById && !document.all)) {
+			if (e.which == 2 || e.which == 3) {
+				return false;
+			}
+		}
+	}
+	if (document.layers) {
+		document.captureEvents(Event.MOUSEDOWN);
+		document.onmousedown = clickNS;
+	}
+	else {
+		document.onmouseup = clickNS;
+		document.oncontextmenu = clickIE;
+	}
 
-<!--Footers-->
-<div class="semiFooter">
-	A real life couple Titas and Sukanya. In quest for good foods. Review, recommendations and visiting new restaurants. Discovering budget foods. Good food what everyone like. Titas and Sukanya in a journey for discovering budget good food in local restaurants. Reviewing them and recommending to others as well.
-	<div class="signs" style="width: 300px;">
-		<div><img src="assets/sigSuk.svg"></div>
-		<div><img src="assets/sigTitas.svg" alt=""></div> 
-	</div>
-	<div class="socialMedia">
-	<i class="fab fa-youtube"></i>
-	<i class="fas fa-users"></i>
-	<i class="fab fa-facebook-square"></i>
-	<i class="fab fa-instagram"></i>
-	<i class="fab fa-whatsapp"></i>
-	<i class="fab fa-google"></i>
-	</div>
-</div>
-<div class="foot">
-	<div>
-		foodyC.
-	</div>
-	<div style="font-size: 10px; text-align: center;">
-		Titas Mallick <br>
-		Sukanya Saha
-	</div>
+	document.oncontextmenu = new Function("return false")
+</script>
+
+<body background="bg.jpg">
+
 	<div>
 		<center>
-		<img style="width: 15px" src="assets/creativegun.png"></center>
-	</div>
-	<div style="font-size: 10px;">
-		foodycouple0@gmail.com
-	</div>
-</div>
 
+			<a href="index.html">
+				<img alt="Foody Couple Logo" class="head" src="foodyClogo.svg">
+			</a>
+		</center>
+
+	</div>
+	<div class="txta">
+		<center>
+			<h1 style="font-family: 'Alata', sans-serif; font-size: 2.8vh; padding-bottom: 0px;">foodyC Contests</h1>
+			<p style="font-family: 'Alata', sans-serif; font-size: 2.8vh; padding-bottom: 0px;">Page Foody Couple and
+				Our group foodyC arranges frequent Contests and competitions. In this page you can
+				stay updated about all our on-going and upcoming contests.</p>
+			<h1 style="font-family: 'Alata', sans-serif; font-size: 2.8vh; padding-bottom: 0px;">On-going Contests</h1>
+			<p style="font-family: 'Alata', sans-serif; padding-bottom: 0px;">The foodyC. Winter Contest is closed now and here we are publishing the result of the Category 1 of the Winter Contest, i.e. Admin Choice</p>
+			<h1 style="font-family: 'Alata', sans-serif; font-size: 20px; padding-bottom: 0px;">Winner Of the foodyC. Admin Choice segment of the Winter Contest</h1>
+			<h2 style="font-family: 'Alata', sans-serif; font-size: 3.5vh; padding-top: 0px;">Debsmita Das</h2>
+			<p style="font-family: 'Alata', sans-serif; font-size: 13px; margin:20px;">She is the lucky winner of the
+				foodyC Winter Contest Category 1 Admin Choice.</p>
+			<h1 style="font-family: 'Alata', sans-serif; font-size: 20px; padding-bottom: 0px;">Upcoming Contests</h1>
+			<h2 style="font-family: 'Alata', sans-serif; text-align: center; font-size: 16px;">We are updating our website.<br>
+				You will be updated about
+				the upcoming contests in this section as soon as they appear. Till then follow
+				our group foodyC and our page Foody Couple. Links in the landing page of this site.</h2>
+		</center>
+	</div>
+	<div class="buttn">
+		<a style="text-decoration: none; color: black;" href="index.html">
+			<p style="font-family: 'Alata', sans-serif; text-align: center; font-size: 10px;">Home</p>
+		</a>
+	</div>
+	<div>
+		<p style="font-family: 'Alata', sans-serif; text-align: center; font-size: 6px; bottom: 0px;"><em>Suggested:
+				Group policies (foodyc.xyz/Policies)</em></p>
+		<p style="font-family: 'Alata', sans-serif; text-align: center; font-size: 6px; bottom: 0px;"><b>This Page will
+				Be Live for 2 days</p></b>
+	</div>
+	<div>
+		<p class="footer" style="font-family: 'Alata', sans-serif; text-align: center; font-size: 10px; bottom: 0px;">
+			foodyC | Foody Couple | Creativegun Films | foodyc.xyz | 2020</p>
+	</div>
 </body>
 </html>
