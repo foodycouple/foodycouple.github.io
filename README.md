@@ -1,1 +1,1 @@
-# foodycouple.github.io
+# foodyc.xyz
